@@ -1,0 +1,31 @@
+class MaxNestedParentheses{
+public int maxDepth(String s) {
+        // Brute force :- Extra Space
+    //   Stack<Character> st=new Stack<>();
+    //   int ans=0;
+    //   for(char ch:s.toCharArray()){
+    //     if(ch=='('){
+    //         st.push(ch);
+    //         ans=Math.max(ans,st.size());
+    //     }
+    //     else if(ch==')'){
+    //         st.pop();
+    //     }
+    //   }  
+    //   return ans;
+
+    // Optimized Approach :- As i know that valid paretheses so take the benefit
+
+    int ans=0, openBracket=0;
+    for(char ch:s.toCharArray()){
+        if(ch=='('){
+            openBracket++;
+        }
+        else if(ch==')'){
+            openBracket--;
+        }
+        ans=Math.max(ans,openBracket);
+    }
+    return ans;
+    }
+}
