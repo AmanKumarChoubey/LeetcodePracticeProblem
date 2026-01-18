@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.Array;
+
 class MaxProductSubArr{
   public int maxProduct(int[] nums) {
         int n=nums.length, i=0,j=n-1, prod1=1, prod2=1;
