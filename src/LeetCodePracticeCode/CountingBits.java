@@ -1,5 +1,6 @@
 class CountingBits{
   public int[] countBits(int n) {
+       // Optimised approach 
         int[] ans=new int[n+1];
         if(n<=0) return ans;
         ans[0]=0;
