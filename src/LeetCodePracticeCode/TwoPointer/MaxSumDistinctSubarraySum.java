@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class MaxSumDistinctSubarraySum {
     public long maximumSubarraySum(int[] nums, int k) {
+        // Optimised approach
         long ans=0, sum=0;
         int left=0;
         Set<Integer> set=new HashSet<>();
