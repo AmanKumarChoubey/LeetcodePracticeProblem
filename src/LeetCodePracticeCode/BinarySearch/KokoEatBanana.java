@@ -1,6 +1,7 @@
 class KokoEatBanana{
   public int minEatingSpeed(int[] piles, int h) {
         int maxLen=Integer.MIN_VALUE, ans=0;
+        // find max koko eat in an hour
         for(int i=0;i<piles.length;i++){
             if(piles[i]>maxLen){
                 maxLen=piles[i];
