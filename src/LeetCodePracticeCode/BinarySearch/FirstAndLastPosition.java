@@ -2,7 +2,7 @@ package LeetCodePracticeCode.BinarySearch;
 
 public class FirstAndLastPosition {
     public int[] searchRange(int[] nums, int target) {
-        // code here
+        // start code here
         int lower=firstSolver(nums,target);
         int upper=secondSolver(nums,target);
         return new int[]{lower,upper};
