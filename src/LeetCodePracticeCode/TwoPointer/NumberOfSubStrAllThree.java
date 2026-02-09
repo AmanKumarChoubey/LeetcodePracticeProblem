@@ -15,14 +15,26 @@ class NumberOfSubStrAllThree{
         // return count;
 
         // Better Approch
-        for(int i=0;i<n;i++){
-            int abcHash[]=new int[3];
-            for(int j=i;j<n;j++){
-                abcHash[s.charAt(j)-'a']++;
-                if(abcHash[0]>=1 && abcHash[1]>=1 && abcHash[2]>=1){
-                    count+=(n-j);
-                    break;
-                }
+        // for(int i=0;i<n;i++){
+        //     int abcHash[]=new int[3];
+        //     for(int j=i;j<n;j++){
+        //         abcHash[s.charAt(j)-'a']++;
+        //         if(abcHash[0]>=1 && abcHash[1]>=1 && abcHash[2]>=1){
+        //             count+=(n-j);
+        //             break;
+        //         }
+        //     }
+        // }
+        // return count;
+
+       // Optimised Approach
+        int abcHash[]=new int[3];
+        int start=0;
+        for(int end=0;end<n;end++){
+            abcHash[s.charAt(end)-'a']++;
+            while(abcHash[0]>=1 && abcHash[1]>=1 && abcHash[2]>=1){
+                count+=(n-end);
+                abcHash[s.charAt(start++)-'a']--;
             }
         }
         return count;
