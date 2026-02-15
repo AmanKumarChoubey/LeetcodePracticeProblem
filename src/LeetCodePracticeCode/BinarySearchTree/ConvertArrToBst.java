@@ -1,4 +1,7 @@
-class ConvertArrToBst{
+package LeetCodePracticeCode.BinarySearchTree;
+
+
+public class ConvertArrToBst{
   public TreeNode sortedArrayToBST(int[] nums) {
         //Code here
         int n=nums.length;
@@ -14,3 +17,15 @@ class ConvertArrToBst{
         return ans;
     }
 }
+  class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }

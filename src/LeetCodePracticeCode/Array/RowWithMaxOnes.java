@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.Array;
+
 class RowWithMaxOnes{
   public int[] rowAndMaximumOnes(int[][] mat) {
         int ans[]=new int[2];

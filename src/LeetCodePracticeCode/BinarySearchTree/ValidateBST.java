@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BinarySearchTree;
+
 class ValidateBST{
   TreeNode prev=null;
     public boolean isValidBST(TreeNode root) {

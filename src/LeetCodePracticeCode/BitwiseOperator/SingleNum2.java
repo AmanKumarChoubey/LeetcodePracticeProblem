@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+
 class SingleNum2{
   public int singleNumber(int[] nums) {
     // ~ represent Not Operator

@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+
 class SingleNum{
   public int singleNumber(int[] nums) {
         int xor=0;

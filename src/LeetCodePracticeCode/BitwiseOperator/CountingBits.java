@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+
 class CountingBits{
   public int[] countBits(int n) {
        // Optimised approach 

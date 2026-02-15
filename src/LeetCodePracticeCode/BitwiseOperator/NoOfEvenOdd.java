@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+
 class NoOfEvenOdd{
   public int[] evenOddBit(int n) {
         if(n==0) return new int[]{0,0};

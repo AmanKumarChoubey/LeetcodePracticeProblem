@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+import java.util.*;
 class MinBitwiseArr1{
   public int[] minBitwiseArray(List<Integer> nums) {
     // Best approach for Construct Minimum Bitwise Array

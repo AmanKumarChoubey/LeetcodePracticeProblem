@@ -1,3 +1,5 @@
+package LeetCodePracticeCode.BitwiseOperator;
+
 class NumberOf1Bits{
    public int hammingWeight(int n) {
        int count=0;
