@@ -1,6 +1,10 @@
 class GenerateParenthesis{
   public List<String> generateParenthesis(int n) {
-    // Recursion Question
+    // Recursion Approach
+    // Some Tips to solve this Problem
+    // Base Case when openBracket and closeBracket is Zero then its time to add String store variable in List
+    // And if openBracket is not Zero then recursively append openBracket and decrease its cntFrequency
+    // And if closeBracket is as soon as greater than openBracket then add closeBracket
       List<String> ans=new ArrayList<>();
       solver(n,n,ans,"");
       return ans;
