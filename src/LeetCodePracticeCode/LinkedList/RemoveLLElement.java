@@ -15,8 +15,15 @@ class RemoveLLElement{
         // return head;
 
       // Through Recursive Approach
-      if (head == null) return null;
-        head.next = removeElements(head.next, val);
-        return head.val == val ? head.next : head;
+      if(head==null) return head;
+
+        ListNode temp=removeElements(head.next,val);
+        if(head.val==val){
+            return temp;
+        }
+        else{
+            head.next=temp;
+            return head;
+        }
    }
 }
