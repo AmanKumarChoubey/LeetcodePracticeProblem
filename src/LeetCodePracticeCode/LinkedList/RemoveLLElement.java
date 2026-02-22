@@ -14,7 +14,7 @@ class RemoveLLElement{
        
         // return head;
 
-      // Through Recursive Approach
+      // Through Recursive Approa
       if(head==null) return head;
 
         ListNode temp=removeElements(head.next,val);
