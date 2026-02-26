@@ -2,7 +2,7 @@ package LeetCodePracticeCode.BitwiseOperator;
 
 class SingleNum2{
   public int singleNumber(int[] nums) {
-    // There are threee ways to solve the problem 
+        // There are threee ways to solve the problem 
         // 1. by Using HashMap
         // 2. by Using Triplet size element and check to the left
         // 3. by Using the concept of bucket
