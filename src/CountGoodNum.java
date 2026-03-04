@@ -1,6 +1,7 @@
 class CountGoodNum{
   static long MOD=1000000007;
     public int countGoodNumbers(long n) {
+      // Code here.
         long even=(n+1)/2;
         long odd=n/2;
         long first=findPow(5,even)%MOD;
