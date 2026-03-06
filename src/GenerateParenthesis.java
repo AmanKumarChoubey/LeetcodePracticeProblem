@@ -1,6 +1,6 @@
 class GenerateParenthesis{
   public List<String> generateParenthesis(int n) {
-    // Recursion Approach
+    // Recursion Appr
     // Some Tips to solve this Problem
     // Base Case when openBracket and closeBracket is Zero then its time to add String store variable in List
     // And if openBracket is not Zero then recursively append openBracket and decrease its cntFrequency
